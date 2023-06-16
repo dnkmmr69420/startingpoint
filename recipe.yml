@@ -64,6 +64,11 @@ rpm:
     - adw-gtk3-theme
     - gnome-tweaks
     - gnome-terminal
+    - steam-devices
+    - dnf
+    - 'dnf-command(copr)'
+    - libvirt
+    - qemu
     # Add your own below:
     # Example:
     # - tilix
