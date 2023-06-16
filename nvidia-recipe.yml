@@ -67,6 +67,11 @@ rpm:
     # Add your own below:
     # Example:
     # - tilix
+    - steam-devices
+    - dnf
+    - 'dnf-command(copr)'
+    - libvirt
+    - qemu
 
   # These RPMs will be removed from the system image. This step happens during
   # image build, BEFORE installing custom RPMs (from the "rpm.install" category).
